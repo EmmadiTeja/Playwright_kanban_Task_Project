@@ -12,7 +12,7 @@ export default defineConfig({
   workers: 5,
   timeout: 60_000,
   expect: { timeout: 10_000 },
-  reporter: [["html", { open: "never" }]],
+  reporter: [["html", { open: "never" }], ["github"] ],
 
   use: {
     baseURL: "https://kanban-566d8.firebaseapp.com/",
